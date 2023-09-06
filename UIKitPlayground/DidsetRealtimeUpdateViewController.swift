@@ -10,7 +10,7 @@
 import UIKit
 import Combine
 
-class ViewModel {
+class DidsetRealtimeUpdateViewModel {
     var number: Int = 0
     func increase() {
         self.number += 1
@@ -18,7 +18,7 @@ class ViewModel {
 }
 
 class DidsetRealtimeUpdateViewController: UIViewController {
-    let vm: ViewModel = ViewModel()
+    let vm: DidsetRealtimeUpdateViewModel = DidsetRealtimeUpdateViewModel()
     let uiLabel: UILabel = UILabel()
     var counting: Int = 0 {
         didSet {

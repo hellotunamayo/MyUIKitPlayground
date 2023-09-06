@@ -5,10 +5,12 @@
 //  Created by Minyoung Yoo on 2023/08/29.
 //
 
+//Combine 으로 업데이트하는 예제
+
 import UIKit
 import Combine
 
-class RealtimeUpdatingViewControllerViewModel: ObservableObject {
+class CombineRealtimeUpdateViewModel: ObservableObject {
     @Published var name: String = "John Doe"
     @Published var secondName: String = "Hong Gildong"
     
@@ -22,7 +24,7 @@ class RealtimeUpdatingViewControllerViewModel: ObservableObject {
 }
 
 class CombineRealtimeUpdateViewController: UIViewController {
-    let vm: RealtimeUpdatingViewControllerViewModel = RealtimeUpdatingViewControllerViewModel()
+    let vm: CombineRealtimeUpdateViewModel = CombineRealtimeUpdateViewModel()
     let uiLabel: UILabel = UILabel()
     let secondUILabel: UILabel = UILabel()
     private var cancellables: Set<AnyCancellable> = []
