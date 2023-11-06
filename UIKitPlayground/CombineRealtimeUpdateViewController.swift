@@ -74,3 +74,6 @@ class CombineRealtimeUpdateViewController: UIViewController {
     }
 }
 
+#Preview {
+    CombineRealtimeUpdateViewController()
+}

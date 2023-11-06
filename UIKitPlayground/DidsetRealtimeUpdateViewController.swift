@@ -59,3 +59,6 @@ class DidsetRealtimeUpdateViewController: UIViewController {
     }
 }
 
+#Preview{
+    DidsetRealtimeUpdateViewController()
+}

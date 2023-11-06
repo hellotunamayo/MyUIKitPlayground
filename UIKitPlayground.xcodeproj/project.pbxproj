@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E14476C82AC074D800B28151 /* datafile.json in Resources */ = {isa = PBXBuildFile; fileRef = E14476C72AC074D800B28151 /* datafile.json */; };
+		E14B450E2ABDACA00058D540 /* SheetFullscreenNavigationViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B450D2ABDACA00058D540 /* SheetFullscreenNavigationViewViewController.swift */; };
+		E1741FB72AF481A100F3B60F /* SafeAreaExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1741FB62AF481A100F3B60F /* SafeAreaExampleViewController.swift */; };
 		E176DA922A9E13840068A850 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176DA912A9E13840068A850 /* AppDelegate.swift */; };
 		E176DA942A9E13840068A850 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176DA932A9E13840068A850 /* SceneDelegate.swift */; };
 		E176DA962A9E13840068A850 /* DidsetRealtimeUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176DA952A9E13840068A850 /* DidsetRealtimeUpdateViewController.swift */; };
@@ -16,6 +19,9 @@
 		E176DAA92A9E13850068A850 /* UIKitPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176DAA82A9E13850068A850 /* UIKitPlaygroundTests.swift */; };
 		E176DAB32A9E13850068A850 /* UIKitPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176DAB22A9E13850068A850 /* UIKitPlaygroundUITests.swift */; };
 		E176DAB52A9E13850068A850 /* UIKitPlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176DAB42A9E13850068A850 /* UIKitPlaygroundUITestsLaunchTests.swift */; };
+		E17F5DA32ACC66F40043F4FE /* CombineBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17F5DA22ACC66F40043F4FE /* CombineBasicViewController.swift */; };
+		E1AA43C62AF8861400FD75C3 /* DelegateExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AA43C52AF8861400FD75C3 /* DelegateExampleViewController.swift */; };
+		E1B848232ABDD41A007CB975 /* CombineUpdateViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B848222ABDD41A007CB975 /* CombineUpdateViewViewController.swift */; };
 		E1D066D32AA8A23C0025D81A /* CombineRealtimeUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D066D22AA8A23C0025D81A /* CombineRealtimeUpdateViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E14476C72AC074D800B28151 /* datafile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = datafile.json; sourceTree = "<group>"; };
+		E14B450D2ABDACA00058D540 /* SheetFullscreenNavigationViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetFullscreenNavigationViewViewController.swift; sourceTree = "<group>"; };
+		E1741FB62AF481A100F3B60F /* SafeAreaExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaExampleViewController.swift; sourceTree = "<group>"; };
 		E176DA8E2A9E13840068A850 /* UIKitPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E176DA912A9E13840068A850 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E176DA932A9E13840068A850 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +59,9 @@
 		E176DAAE2A9E13850068A850 /* UIKitPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E176DAB22A9E13850068A850 /* UIKitPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitPlaygroundUITests.swift; sourceTree = "<group>"; };
 		E176DAB42A9E13850068A850 /* UIKitPlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitPlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E17F5DA22ACC66F40043F4FE /* CombineBasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineBasicViewController.swift; sourceTree = "<group>"; };
+		E1AA43C52AF8861400FD75C3 /* DelegateExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateExampleViewController.swift; sourceTree = "<group>"; };
+		E1B848222ABDD41A007CB975 /* CombineUpdateViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineUpdateViewViewController.swift; sourceTree = "<group>"; };
 		E1D066D22AA8A23C0025D81A /* CombineRealtimeUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineRealtimeUpdateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,10 +113,16 @@
 		E176DA902A9E13840068A850 /* UIKitPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				E1AA43C52AF8861400FD75C3 /* DelegateExampleViewController.swift */,
+				E1741FB62AF481A100F3B60F /* SafeAreaExampleViewController.swift */,
 				E176DA912A9E13840068A850 /* AppDelegate.swift */,
 				E176DA932A9E13840068A850 /* SceneDelegate.swift */,
 				E176DA952A9E13840068A850 /* DidsetRealtimeUpdateViewController.swift */,
 				E1D066D22AA8A23C0025D81A /* CombineRealtimeUpdateViewController.swift */,
+				E14B450D2ABDACA00058D540 /* SheetFullscreenNavigationViewViewController.swift */,
+				E1B848222ABDD41A007CB975 /* CombineUpdateViewViewController.swift */,
+				E17F5DA22ACC66F40043F4FE /* CombineBasicViewController.swift */,
+				E14476C72AC074D800B28151 /* datafile.json */,
 				E176DA972A9E13840068A850 /* Main.storyboard */,
 				E176DA9A2A9E13850068A850 /* Assets.xcassets */,
 				E176DA9C2A9E13850068A850 /* LaunchScreen.storyboard */,
@@ -194,7 +212,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					E176DA8D2A9E13840068A850 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -237,6 +255,7 @@
 				E176DA9E2A9E13850068A850 /* LaunchScreen.storyboard in Resources */,
 				E176DA9B2A9E13850068A850 /* Assets.xcassets in Resources */,
 				E176DA992A9E13840068A850 /* Main.storyboard in Resources */,
+				E14476C82AC074D800B28151 /* datafile.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1AA43C62AF8861400FD75C3 /* DelegateExampleViewController.swift in Sources */,
+				E1B848232ABDD41A007CB975 /* CombineUpdateViewViewController.swift in Sources */,
+				E1741FB72AF481A100F3B60F /* SafeAreaExampleViewController.swift in Sources */,
 				E176DA962A9E13840068A850 /* DidsetRealtimeUpdateViewController.swift in Sources */,
 				E176DA922A9E13840068A850 /* AppDelegate.swift in Sources */,
 				E1D066D32AA8A23C0025D81A /* CombineRealtimeUpdateViewController.swift in Sources */,
+				E17F5DA32ACC66F40043F4FE /* CombineBasicViewController.swift in Sources */,
 				E176DA942A9E13840068A850 /* SceneDelegate.swift in Sources */,
+				E14B450E2ABDACA00058D540 /* SheetFullscreenNavigationViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +380,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -370,7 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -416,6 +441,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -424,7 +450,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -449,6 +475,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +504,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
