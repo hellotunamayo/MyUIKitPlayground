@@ -93,7 +93,9 @@ class DelegateExampleViewController: UIViewController, DeleateExampleDelegate {
     }
     
     func didSelectedItem(label: String) {
-        self.resultLabel.text = label
+        let stringArray: [String] = ["The First Text","Second Text","Third Text","Fourth Text","Fifth Text"]
+        let randomInt: Int = Int.random(in: 0...4)
+        self.resultLabel.text = stringArray[randomInt]
 //        dismiss(animated: true)
     }
     
