@@ -44,7 +44,9 @@ class DelegateExampleViewSheetViewController: UIViewController {
     }
     
     @objc func changeText() -> Void {
-        delegate?.didSelectedItem(label: "text changed!")
+        let stringArray: [String] = ["The First Text","Second Text","Third Text","Fourth Text","Fifth Text"]
+        let randomInt: Int = Int.random(in: 0...4)
+        delegate?.didSelectedItem(label: "\(stringArray[randomInt])")
     }
 }
 
@@ -93,9 +95,7 @@ class DelegateExampleViewController: UIViewController, DeleateExampleDelegate {
     }
     
     func didSelectedItem(label: String) {
-        let stringArray: [String] = ["The First Text","Second Text","Third Text","Fourth Text","Fifth Text"]
-        let randomInt: Int = Int.random(in: 0...4)
-        self.resultLabel.text = stringArray[randomInt]
+        self.resultLabel.text = label
 //        dismiss(animated: true)
     }
     
