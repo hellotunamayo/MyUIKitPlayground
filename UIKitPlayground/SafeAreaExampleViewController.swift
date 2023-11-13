@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Combine
 
 class SafeAreaExampleViewController: UIViewController, UITextFieldDelegate {
 
@@ -73,4 +74,8 @@ extension UIView {
             addSubview(view)
         }
     }
+}
+
+#Preview{
+    SafeAreaExampleViewController()
 }

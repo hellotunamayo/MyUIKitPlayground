@@ -96,7 +96,6 @@ class DelegateExampleViewController: UIViewController, DeleateExampleDelegate {
     
     func didSelectedItem(label: String) {
         self.resultLabel.text = label
-//        dismiss(animated: true)
     }
     
     @objc func callModal() -> Void {
@@ -104,4 +103,8 @@ class DelegateExampleViewController: UIViewController, DeleateExampleDelegate {
         sheetView.sheetPresentationController?.detents = [.medium()]
         self.present(sheetView, animated: true)
     }
+}
+
+#Preview {
+    DelegateExampleViewController()
 }
