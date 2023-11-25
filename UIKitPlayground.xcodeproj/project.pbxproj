@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E101B7F52AFD086700D68FE1 /* ClassExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E101B7F42AFD086700D68FE1 /* ClassExampleViewController.swift */; };
+		E101B7F52AFD086700D68FE1 /* UICollectionViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E101B7F42AFD086700D68FE1 /* UICollectionViewExample.swift */; };
 		E12F47EB2B0240B500925CC6 /* JjapstaGramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12F47EA2B0240B500925CC6 /* JjapstaGramViewController.swift */; };
 		E14476C82AC074D800B28151 /* datafile.json in Resources */ = {isa = PBXBuildFile; fileRef = E14476C72AC074D800B28151 /* datafile.json */; };
 		E14B450E2ABDACA00058D540 /* SheetFullscreenNavigationViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B450D2ABDACA00058D540 /* SheetFullscreenNavigationViewViewController.swift */; };
@@ -44,7 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E101B7F42AFD086700D68FE1 /* ClassExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassExampleViewController.swift; sourceTree = "<group>"; };
+		E101B7F42AFD086700D68FE1 /* UICollectionViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExample.swift; sourceTree = "<group>"; };
 		E12F47EA2B0240B500925CC6 /* JjapstaGramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JjapstaGramViewController.swift; sourceTree = "<group>"; };
 		E14476C72AC074D800B28151 /* datafile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = datafile.json; sourceTree = "<group>"; };
 		E14B450D2ABDACA00058D540 /* SheetFullscreenNavigationViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetFullscreenNavigationViewViewController.swift; sourceTree = "<group>"; };
@@ -115,8 +115,8 @@
 		E176DA902A9E13840068A850 /* UIKitPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				E101B7F42AFD086700D68FE1 /* UICollectionViewExample.swift */,
 				E12F47EA2B0240B500925CC6 /* JjapstaGramViewController.swift */,
-				E101B7F42AFD086700D68FE1 /* ClassExampleViewController.swift */,
 				E1AA43C52AF8861400FD75C3 /* DelegateExampleViewController.swift */,
 				E1741FB62AF481A100F3B60F /* SafeAreaExampleViewController.swift */,
 				E176DA952A9E13840068A850 /* DidsetRealtimeUpdateViewController.swift */,
@@ -291,7 +291,7 @@
 				E12F47EB2B0240B500925CC6 /* JjapstaGramViewController.swift in Sources */,
 				E17F5DA32ACC66F40043F4FE /* CombineBasicViewController.swift in Sources */,
 				E176DA942A9E13840068A850 /* SceneDelegate.swift in Sources */,
-				E101B7F52AFD086700D68FE1 /* ClassExampleViewController.swift in Sources */,
+				E101B7F52AFD086700D68FE1 /* UICollectionViewExample.swift in Sources */,
 				E14B450E2ABDACA00058D540 /* SheetFullscreenNavigationViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

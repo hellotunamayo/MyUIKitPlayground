@@ -125,7 +125,7 @@ class JjapstaGramViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.addChild(JjapstagramSinglePostViewController())
-        self.addChild(ClassExampleViewController())
+        self.addChild(UICollectionViewExample())
 //        print(self.children)
         self.setupView()
     }
@@ -152,4 +152,8 @@ class JjapstaGramViewController: UIViewController {
             self.children[0].view.widthAnchor.constraint(equalTo: self.scrollView.contentLayoutGuide.widthAnchor),
         ])
     }
+}
+
+#Preview{
+    JjapstaGramViewController()
 }
