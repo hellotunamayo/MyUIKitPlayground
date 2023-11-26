@@ -11,14 +11,13 @@ let collectionViewCellGap: CGFloat = 0.5
 
 class CECollectionViewCell: UICollectionViewCell {
     
-    var imageName: String
+    var imageName: String?
     let imageView: UIImageView = {
         let iv: UIImageView = UIImageView()
         return iv
     }()
     
     override init(frame: CGRect) {
-        self.imageName = "leo"
         super.init(frame: frame)
         setupUI()
     }
@@ -32,7 +31,7 @@ class CECollectionViewCell: UICollectionViewCell {
     }
     
     func setupImage() -> Void {
-        self.imageView.image = UIImage(named: imageName)
+        self.imageView.image = UIImage(named: imageName ?? "")
         self.imageView.contentMode = .scaleAspectFit
         self.imageView.backgroundColor = UIColor.black
         self.imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -48,7 +47,7 @@ class CECollectionViewCell: UICollectionViewCell {
 
 class UICollectionViewExample: UIViewController {
     
-    let imageNames: [String] = ["leo", "mole3", "sampleImage"]
+    let imageNames: [String] = ["leo", "mole3", "sampleImage", "mollu"]
     
     let collectionView: UICollectionView = {
         let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
@@ -103,6 +102,6 @@ extension UICollectionViewExample: UICollectionViewDelegate, UICollectionViewDel
     }
 }
 
-#Preview {
-    UICollectionViewExample()
-}
+//#Preview {
+//    UICollectionViewExample()
+//}
