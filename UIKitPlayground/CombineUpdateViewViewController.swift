@@ -18,24 +18,44 @@ struct PostModel: Codable{
 final class ViewControllerViewModel {
     @Published var postData: PostModel?
     
-    init(){
-        fetchPostData(postId: 1)
+    init() {
+        Task {
+            await fetchPostData(postId: 1)
+        }
+    }
+    
+    func fetchPostData(postId: Int) async -> Void {
+        self.postData = try? await getPostData(postId: postId)
     }
 
-    func fetchPostData(postId: Int) -> Void {
-        let urlString = "https://jsonplaceholder.typicode.com/posts/\(postId)"
-        guard let url: URL = URL(string: urlString) else { return }
+    func getPostData(postId: Int) async throws -> PostModel {
         
-        URLSession.shared.dataTask(with: URLRequest(url: url), completionHandler: { data, response, error in
-            let decoder = JSONDecoder()
-            
-            guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else { return }
-            guard let data = data else { return }
-            guard let jsonData = try? decoder.decode(PostModel.self, from: data) else { return }
-            
-            self.postData = jsonData
-            
-        }).resume()
+        //error cases
+        enum FetchError: Error {
+            case urlNotFound, dataNotFound
+        }
+        
+        let urlString = "https://jsonplaceholder.typicode.com/posts/\(postId)"
+        guard let url: URL = URL(string: urlString) else { throw FetchError.urlNotFound }
+        let request = URLRequest(url: url)
+        
+        let (data, _) = try await URLSession.shared.data(for: request)
+        let decoder: JSONDecoder = JSONDecoder()
+        let decodedData:PostModel = try decoder.decode(PostModel.self, from: data)
+        
+        return decodedData
+        
+        //DataTask Method (escaping closure)
+//        URLSession.shared.dataTask(with: URLRequest(url: url), completionHandler: { data, response, error in
+//            let decoder = JSONDecoder()
+//            
+//            guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else { return }
+//            guard let data = data else { return }
+//            guard let jsonData = try? decoder.decode(PostModel.self, from: data) else { return }
+//            
+//            self.postData = jsonData
+//            
+//        }).resume()
     }
 }
 
@@ -55,7 +75,7 @@ class CombineUpdateViewViewController: UIViewController {
     func setupView() {
         fetchButton.configuration = .filled()
         fetchButton.configuration?.title = "Change Data"
-        fetchButton.addTarget(self, action: #selector(increaseCount), for: .touchUpInside)
+        fetchButton.addTarget(self, action: #selector(getValue), for: .touchUpInside)
         
         textField.borderStyle = .roundedRect
         textField.keyboardType = .decimalPad
@@ -83,7 +103,7 @@ class CombineUpdateViewViewController: UIViewController {
             fetchButton.topAnchor.constraint(equalTo: bodyLabel.bottomAnchor, constant: 20)
         ])
     }
-    
+
     func bind() {
         vm.$postData.sink { [weak self] postdata in
             DispatchQueue.main.async {
@@ -93,9 +113,13 @@ class CombineUpdateViewViewController: UIViewController {
         }.store(in: &cancellable)
     }
     
-    @objc func increaseCount() -> Void {
+    @objc func getValue() -> Void {
         guard let postIdValue = Int(textField.text ?? "0") else { return }
-        vm.fetchPostData(postId: postIdValue)
+        
+        Task {
+            await vm.fetchPostData(postId: postIdValue)
+        }
+        
     }
 }
 

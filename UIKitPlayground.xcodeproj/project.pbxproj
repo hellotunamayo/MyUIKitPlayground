@@ -8,7 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		E101B7F52AFD086700D68FE1 /* UICollectionViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E101B7F42AFD086700D68FE1 /* UICollectionViewExample.swift */; };
+		E12ACFE32B1881DE00F96560 /* ModalExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12ACFE22B1881DE00F96560 /* ModalExampleViewController.swift */; };
+		E12ACFE72B19503200F96560 /* SoundHIGExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12ACFE62B19503200F96560 /* SoundHIGExample.swift */; };
 		E12F47EB2B0240B500925CC6 /* JjapstaGramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12F47EA2B0240B500925CC6 /* JjapstaGramViewController.swift */; };
+		E143E7222B482CDF00D13336 /* wegotogether.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E143E7212B482CD500D13336 /* wegotogether.m4a */; };
+		E143E7242B48348500D13336 /* ClassExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143E7232B48348500D13336 /* ClassExampleViewController.swift */; };
 		E14476C82AC074D800B28151 /* datafile.json in Resources */ = {isa = PBXBuildFile; fileRef = E14476C72AC074D800B28151 /* datafile.json */; };
 		E14B450E2ABDACA00058D540 /* SheetFullscreenNavigationViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B450D2ABDACA00058D540 /* SheetFullscreenNavigationViewViewController.swift */; };
 		E1741FB72AF481A100F3B60F /* SafeAreaExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1741FB62AF481A100F3B60F /* SafeAreaExampleViewController.swift */; };
@@ -21,6 +25,8 @@
 		E176DAB32A9E13850068A850 /* UIKitPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176DAB22A9E13850068A850 /* UIKitPlaygroundUITests.swift */; };
 		E176DAB52A9E13850068A850 /* UIKitPlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E176DAB42A9E13850068A850 /* UIKitPlaygroundUITestsLaunchTests.swift */; };
 		E17F5DA32ACC66F40043F4FE /* CombineBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17F5DA22ACC66F40043F4FE /* CombineBasicViewController.swift */; };
+		E19A44EE2B16CBCB000C949A /* TypographySpecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A44ED2B16CBCB000C949A /* TypographySpecViewController.swift */; };
+		E1A5B3742B14AF6A006B58F0 /* UITableViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5B3732B14AF6A006B58F0 /* UITableViewExample.swift */; };
 		E1AA43C62AF8861400FD75C3 /* DelegateExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AA43C52AF8861400FD75C3 /* DelegateExampleViewController.swift */; };
 		E1B848232ABDD41A007CB975 /* CombineUpdateViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B848222ABDD41A007CB975 /* CombineUpdateViewViewController.swift */; };
 		E1D066D32AA8A23C0025D81A /* CombineRealtimeUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D066D22AA8A23C0025D81A /* CombineRealtimeUpdateViewController.swift */; };
@@ -45,7 +51,11 @@
 
 /* Begin PBXFileReference section */
 		E101B7F42AFD086700D68FE1 /* UICollectionViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExample.swift; sourceTree = "<group>"; };
+		E12ACFE22B1881DE00F96560 /* ModalExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalExampleViewController.swift; sourceTree = "<group>"; };
+		E12ACFE62B19503200F96560 /* SoundHIGExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundHIGExample.swift; sourceTree = "<group>"; };
 		E12F47EA2B0240B500925CC6 /* JjapstaGramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JjapstaGramViewController.swift; sourceTree = "<group>"; };
+		E143E7212B482CD500D13336 /* wegotogether.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = wegotogether.m4a; sourceTree = "<group>"; };
+		E143E7232B48348500D13336 /* ClassExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassExampleViewController.swift; sourceTree = "<group>"; };
 		E14476C72AC074D800B28151 /* datafile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = datafile.json; sourceTree = "<group>"; };
 		E14B450D2ABDACA00058D540 /* SheetFullscreenNavigationViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetFullscreenNavigationViewViewController.swift; sourceTree = "<group>"; };
 		E1741FB62AF481A100F3B60F /* SafeAreaExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaExampleViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +72,8 @@
 		E176DAB22A9E13850068A850 /* UIKitPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitPlaygroundUITests.swift; sourceTree = "<group>"; };
 		E176DAB42A9E13850068A850 /* UIKitPlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitPlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E17F5DA22ACC66F40043F4FE /* CombineBasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineBasicViewController.swift; sourceTree = "<group>"; };
+		E19A44ED2B16CBCB000C949A /* TypographySpecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypographySpecViewController.swift; sourceTree = "<group>"; };
+		E1A5B3732B14AF6A006B58F0 /* UITableViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExample.swift; sourceTree = "<group>"; };
 		E1AA43C52AF8861400FD75C3 /* DelegateExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateExampleViewController.swift; sourceTree = "<group>"; };
 		E1B848222ABDD41A007CB975 /* CombineUpdateViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineUpdateViewViewController.swift; sourceTree = "<group>"; };
 		E1D066D22AA8A23C0025D81A /* CombineRealtimeUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineRealtimeUpdateViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +127,11 @@
 		E176DA902A9E13840068A850 /* UIKitPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				E143E7232B48348500D13336 /* ClassExampleViewController.swift */,
+				E12ACFE62B19503200F96560 /* SoundHIGExample.swift */,
+				E12ACFE22B1881DE00F96560 /* ModalExampleViewController.swift */,
+				E19A44ED2B16CBCB000C949A /* TypographySpecViewController.swift */,
+				E1A5B3732B14AF6A006B58F0 /* UITableViewExample.swift */,
 				E101B7F42AFD086700D68FE1 /* UICollectionViewExample.swift */,
 				E12F47EA2B0240B500925CC6 /* JjapstaGramViewController.swift */,
 				E1AA43C52AF8861400FD75C3 /* DelegateExampleViewController.swift */,
@@ -129,6 +146,7 @@
 				E14476C72AC074D800B28151 /* datafile.json */,
 				E176DA9A2A9E13850068A850 /* Assets.xcassets */,
 				E176DA9C2A9E13850068A850 /* LaunchScreen.storyboard */,
+				E143E7212B482CD500D13336 /* wegotogether.m4a */,
 				E176DA9F2A9E13850068A850 /* Info.plist */,
 			);
 			path = UIKitPlayground;
@@ -255,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E143E7222B482CDF00D13336 /* wegotogether.m4a in Resources */,
 				E176DA9E2A9E13850068A850 /* LaunchScreen.storyboard in Resources */,
 				E176DA9B2A9E13850068A850 /* Assets.xcassets in Resources */,
 				E14476C82AC074D800B28151 /* datafile.json in Resources */,
@@ -284,14 +303,19 @@
 			files = (
 				E1AA43C62AF8861400FD75C3 /* DelegateExampleViewController.swift in Sources */,
 				E1B848232ABDD41A007CB975 /* CombineUpdateViewViewController.swift in Sources */,
+				E12ACFE32B1881DE00F96560 /* ModalExampleViewController.swift in Sources */,
 				E1741FB72AF481A100F3B60F /* SafeAreaExampleViewController.swift in Sources */,
 				E176DA962A9E13840068A850 /* DidsetRealtimeUpdateViewController.swift in Sources */,
 				E176DA922A9E13840068A850 /* AppDelegate.swift in Sources */,
 				E1D066D32AA8A23C0025D81A /* CombineRealtimeUpdateViewController.swift in Sources */,
 				E12F47EB2B0240B500925CC6 /* JjapstaGramViewController.swift in Sources */,
+				E143E7242B48348500D13336 /* ClassExampleViewController.swift in Sources */,
+				E12ACFE72B19503200F96560 /* SoundHIGExample.swift in Sources */,
 				E17F5DA32ACC66F40043F4FE /* CombineBasicViewController.swift in Sources */,
+				E1A5B3742B14AF6A006B58F0 /* UITableViewExample.swift in Sources */,
 				E176DA942A9E13840068A850 /* SceneDelegate.swift in Sources */,
 				E101B7F52AFD086700D68FE1 /* UICollectionViewExample.swift in Sources */,
+				E19A44EE2B16CBCB000C949A /* TypographySpecViewController.swift in Sources */,
 				E14B450E2ABDACA00058D540 /* SheetFullscreenNavigationViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

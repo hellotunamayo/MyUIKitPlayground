@@ -37,6 +37,10 @@ class SheetFullscreenNavigationViewViewController: UINavigationController, UINav
         ])
     }
     
+    func pushViewToNext(viewController: UIViewController) {
+        self.pushViewController(viewController, animated: true)
+    }
+    
     @objc func callModal(){
         let vc = ModalViewController(passedString: "Hello World")
         self.present(vc, animated: true)
